@@ -10,7 +10,7 @@ The Markdown used is [Python Markdown](https://pythonhosted.org/Markdown/), base
 
 ## Building the documentation
 ### Setup
-1. Install Python on your computer
+1. Install Python onto your computer
 2. Ensure you also have `pip` (the Python Package Manager) installed
 3. Open a command prompt and type:
 
@@ -21,6 +21,7 @@ The Markdown used is [Python Markdown](https://pythonhosted.org/Markdown/), base
         #pip 9.0.1
 
 1. If Pip is not installed, at the command prompt type:
+
         $python get-pip.py
 
 1. At the command prompt, install the MKDocs and Material theme Python packages:
@@ -35,7 +36,7 @@ The Markdown used is [Python Markdown](https://pythonhosted.org/Markdown/), base
 1. Download the Matrix ACE Help source files to a folder on your computer, e.g: `C:\src\Matrix ACE Help`
 2. At the command prompt, naviagte the the folder where you downloaded the Matrix ACE source files
 
-        cd c:\src\Matrix ACE Help
+        $cd c:\src\Matrix ACE Help
 
 1. At the command prompt, type the `serve` command to start the MKDocs in-built webserver:
 
@@ -45,7 +46,7 @@ The Markdown used is [Python Markdown](https://pythonhosted.org/Markdown/), base
 2. Open a web browser and type in http://127.0.0.1:8000 to see the contents of the Matrix ACE source folder displayed
 3. To build the static html output, type:
 
-        mkdocs build
+        $mkdocs build
 
 1. The output is built in the `site` folder:  `C:\src\Matrix ACE Help\site`
 
