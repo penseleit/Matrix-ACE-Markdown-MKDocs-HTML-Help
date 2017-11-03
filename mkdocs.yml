@@ -1,0 +1,44 @@
+site_name: Matrix ACE
+site_description: Matrix ACE (Audio Control Engine) normalises loudness levels between adjoining video files and streams
+site_author: Peter Enseleit
+copyright: 'Copyright &copy; Mediaware International Pty. Ltd.'
+use_directory_urls: false
+strict: true
+
+markdown_extensions:
+- smarty:
+- sane_lists:
+- admonition:
+
+theme:
+    name: 'material'
+    # Colours to choose from:
+    # red, pink, purple, deep purple, indigo, blue,
+    # light blue, cyan, teal, green, light green, lime, yellow, amber,
+    # orange, deep orange, brown, grey, blue grey
+    palette:
+      primary: 'light green'
+      accent: 'blue'
+
+
+    include_sidebar: true
+    logo: 'images/Mediaware-Mesh-MediawareWhite 256.png'
+    favicon: 'images/favicon.ico'
+
+pages:
+- 'Welcome': 'index.md'
+- 'Introduction':
+    - 'Overview': 'Overview.md'
+    - 'Architecture': 'Architecture.md'
+    - 'Loudness processing explained': 'LoudnessProcessingExplained.md'
+- 'Configuration':
+    - 'Configuring Matrix ACE': 'ConfiguringMatrixACE.md'
+    - 'The Dashboard': 'Dashboard.md'
+    - 'Loudness processing workflows': 'LoudnessProcessingWorkflows.md'
+    - 'Loudness processing workflow fields explained': 'LoudnessProcessingWorkflowFields.md'
+    - 'Loudness profiles': 'LoudnessProfiles.md'
+    - 'Loudness profile fields explained': 'LoudnessProfileFields.md'
+- 'Usage':
+    - 'Using Matrix ACE': 'UsingMatrixACE.md'
+- 'Reference materials': 'ReferenceMaterials.md'
+- 'Terms': 'TermsCopyrightsAndTrademarks.md'
