@@ -34,11 +34,11 @@ The Markdown used is [Python Markdown](https://pythonhosted.org/Markdown/), base
         #mkdocs version 0.17.1
 
 1. Download the Matrix ACE Help source files to a folder on your computer, e.g: `C:\src\Matrix ACE Help`
-2. At the command prompt, naviagte the the folder where you downloaded the Matrix ACE source files
+2. At the command prompt, navigate the the folder where you downloaded the Matrix ACE source files
 
         $cd c:\src\Matrix ACE Help
 
-1. At the command prompt, type the `serve` command to start the MKDocs in-built webserver:
+1. At the command prompt, type the `mkdocs serve` command to start the MKDocs in-built webserver:
 
         $mkdocs serve
 
@@ -51,5 +51,6 @@ The Markdown used is [Python Markdown](https://pythonhosted.org/Markdown/), base
 1. The output is built in the `site` folder:  `C:\src\Matrix ACE Help\site`
 
 ## Deploying the documentation
-The content of the `site` folder is used as the docuemntation for the Matrix ACE product.
+The content of the `site` folder is used as the documentation for the Matrix ACE product.
+
 Copy the contents of this folder for use in the installation package for the product.
