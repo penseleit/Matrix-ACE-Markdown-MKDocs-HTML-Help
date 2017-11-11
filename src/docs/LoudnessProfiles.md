@@ -71,6 +71,7 @@ The process for deleting an existing custom loudness profile is outlined below:
 - Click on an existing custom loudness profile to reveal its values
 - Click the **Delete** button to delete the custom loudness profile.
 
-***Note:** Built-in loudness profiles cannot be deleted.*
+!!! note
+    Built-in loudness profiles cannot be deleted.
 
 [Click here to read an  explanation of the each of the fields in a loudness profile](LoudnessProfileFields.md)
